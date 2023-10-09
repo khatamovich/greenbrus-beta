@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Обрезной брус",
+    "link": "/product?type=timber"
+  },
+  {
+    "name": "Обрезная доска",
+    "link": "/product?type=edged-board"
+  },
+  {
+    "name": "Обрезной брусок",
+    "link": "/product?type=bar"
+  },
+  {
+    "name": "Блок-хаус",
+    "link": "/product?type=block-house"
+  },
+  {
+    "name": "Евровагонка",
+    "link": "/product?type=eurolining"
+  },
+  {
+    "name": "Строганная доска",
+    "link": "/product?type=planed-board"
+  }
+]
