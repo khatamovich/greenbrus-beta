@@ -2,17 +2,17 @@ import { useState, useEffect } from "react";
 import products from "../db/products.js";
 
 export const useProduct = (query) => {
-   const [product, setProduct] = useState({});
+  const [product, setProduct] = useState({});
 
-   useEffect(() => {
-      const result = products.find(
-         (product) => product.type.toLowerCase() === query
-      );
+  useEffect(() => {
+    const result = products.find(
+      (product) => product.type.toLowerCase() === query,
+    );
 
-      setProduct(result);
+    setProduct(result);
 
-      return () => setProduct(null);
-   }, [query]);
+    return () => setProduct(null);
+  }, [query]);
 
-   return product;
+  return product;
 };

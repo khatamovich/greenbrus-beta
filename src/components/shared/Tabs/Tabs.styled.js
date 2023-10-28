@@ -7,7 +7,7 @@ const StyledTabs = styled.div`
   display: flex;
   align-items: center;
   gap: 3em;
-  width: 90%;
+  width: 100%;
   position: sticky;
   z-index: 999;
   top: 0;
@@ -28,20 +28,20 @@ const StyledTabs = styled.div`
       color: var(--color-accent-primary);
     }
   }
-`;
 
-export const Buy = styled.button`
-  margin-left: auto;
-  background-color: transparent;
-  border: none;
-  color: var(--color-accent-primary);
-  font-weight: 700;
-  cursor: pointer;
+  .order-now {
+    margin-left: auto;
+    background-color: transparent;
+    border: none;
+    color: var(--color-accent-primary);
+    font-weight: 700;
+    cursor: pointer;
 
-  svg {
-    vertical-align: middle;
-    font-size: 2.4rem;
-    margin-left: 0.25em;
+    svg {
+      vertical-align: middle;
+      font-size: 2.4rem;
+      margin-left: 0.25em;
+    }
   }
 `;
 

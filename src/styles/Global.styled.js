@@ -27,7 +27,10 @@ const GlobalStyle = createGlobalStyle`
       font-size: 1.8rem;
       font-family: "Roboto", sans-serif;
       font-weight: 300; // Available weights: 300, 500, 700
-      background: linear-gradient(to right, rgba(255, 255, 255, .97), white), url("https://images.unsplash.com/photo-1487266659293-c4762f375955?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3540&q=80") center / cover no-repeat;
+
+      @media (max-width: 1470px) {
+        font-size: 1.5rem;
+      }
   }
 
   p {
@@ -56,6 +59,10 @@ const GlobalStyle = createGlobalStyle`
       margin-bottom: 0.5em;
       font-size: 3rem;
       color: var(--color-accent-primary);
+
+      @media (max-width: 1440px) {
+          font-size: 2.4rem;
+    }
    }
 `;
 
